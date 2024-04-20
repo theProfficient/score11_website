@@ -62,19 +62,23 @@
                                                 <div class="container">
                                                     <div class="sb-menu p-lg-4 p-sm-0">
                                                         <div class="row g-lg-4 g-sm-0">
-                                                            <div class="col-lg-3">
+                                                            <div class="col-lg-4">
                                                                 <div class="d-list-small">
                                                                     <a href="pricing-table-one.html">
                                                                         <img src="images/covers-square/1.webp" class="" alt="">
                                                                         <h5>Thunder and City</h5>
                                                                     </a>
                                                                 </div>
+                                                            </div>
+                                                            <div class="col-lg-4">
                                                                 <div class="d-list-small">
                                                                     <a href="pricing-table-two.html">
                                                                         <img src="images/covers-square/2.webp" class="" alt="">
                                                                         <h5>Mystic Racing Z</h5>
                                                                     </a>
                                                                 </div>
+                                                            </div>
+                                                            <div class="col-lg-4">
                                                                 <div class="d-list-small">
                                                                     <a href="pricing-table-three.html">
                                                                         <img src="images/covers-square/3.webp" class="" alt="">
@@ -82,76 +86,29 @@
                                                                     </a>
                                                                 </div>
                                                             </div>
-
-                                                            <div class="col-lg-3">
+                                                            <div class="col-lg-4">
                                                                 <div class="d-list-small">
                                                                     <a href="pricing-table-four.html">
                                                                         <img src="images/covers-square/4.webp" class="" alt="">
                                                                         <h5>Funk Dungeon</h5>
                                                                     </a>
                                                                 </div>
+                                                            </div>
+                                                            <div class="col-lg-4">
                                                                 <div class="d-list-small">
                                                                     <a href="pricing-table-one.html">
                                                                         <img src="images/covers-square/5.webp" class="" alt="">
                                                                         <h5>Galactic Odyssey</h5>
                                                                     </a>
                                                                 </div>
-                                                                <div class="d-list-small">
-                                                                    <a href="pricing-table-two.html">
-                                                                        <img src="images/covers-square/6.webp" class="" alt="">
-                                                                        <h5>Warfare Legends</h5>
-                                                                    </a>
-                                                                </div>
                                                             </div>
-
-                                                            <div class="col-lg-3">
-                                                                <div class="d-list-small">
-                                                                    <a href="pricing-table-three.html">
-                                                                        <img src="images/covers-square/7.webp" class="" alt="">
-                                                                        <h5>Raceway Revolution</h5>
-                                                                    </a>
-                                                                </div>
-                                                                <div class="d-list-small">
-                                                                    <a href="pricing-table-four.html">
-                                                                        <img src="images/covers-square/8.webp" class="" alt="">
-                                                                        <h5>Starborne Odyssey</h5>
-                                                                    </a>
-                                                                </div>
-                                                                <div class="d-list-small">
-                                                                    <a href="pricing-table-one.html">
-                                                                        <img src="images/covers-square/9.webp" class="" alt="">
-                                                                        <h5>Cyber Nexus</h5>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="col-lg-3">
-                                                                <div class="d-list-small">
-                                                                    <a href="pricing-table-two.html">
-                                                                        <img src="images/covers-square/10.webp" class="" alt="">
-                                                                        <h5>Ancient Realms</h5>
-                                                                    </a>
-                                                                </div>
-                                                                <div class="d-list-small">
-                                                                    <a href="pricing-table-three.html">
-                                                                        <img src="images/covers-square/11.webp" class="" alt="">
-                                                                        <h5>Alien Football</h5>
-                                                                    </a>
-                                                                </div>
-                                                                <div class="d-list-small">
-                                                                    <a href="pricing-table-four.html">
-                                                                        <img src="images/covers-square/12.webp" class="" alt="">
-                                                                        <h5>Shadow of Night</h5>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-
                                                         </div>
                                                     </div>
-                                                </div>                                                
+                                                </div>
                                             </li>
                                         </ul>
                                     </li>
+                                    
                                     <!-- <li><a class="menu-item" href="locations.html">Locations</a></li> -->
                                     <li><a class="menu-item" href="#">Support</a>
                                         <ul>
@@ -206,17 +163,17 @@
                             </p>
 
 
-                            <form name="contactForm" id="contact_form" class="position-relative z1000"action="https://formspree.io/f/xwkddkrr" method="POST" onsubmit="submitForm(event)">
+                            <form name="contactForm" id="myForm" class="position-relative z1000"action="https://formspree.io/f/xwkddkrr" method="POST" onsubmit="submitForm(event)">
                                 <div class="row gx-4">
                                     <div class="col-lg-6 mb10">
                                         <div class="field-set">
                                             <span class="d-label">Name</span>
-                                            <input type="text" name="Name" id="name" class="form-control" placeholder="Your Name" required>
+                                            <input  type="text" name="text" class="form-control" placeholder="Your Name" required>
                                         </div>
 
                                         <div class="field-set">
                                             <span class="d-label">Email</span>
-                                            <input type="text" name="Email" id="email" class="form-control" placeholder="Your Email" required>
+                                            <input type="email" name="email" class="form-control" placeholder="Your Email" required>
                                         </div>
 
                                         <div class="field-set">
@@ -228,23 +185,24 @@
                                     <div class="col-lg-6">
                                         <div class="field-set mb20">
                                             <span class="d-label">Message</span>
-                                            <textarea name="message" id="message" class="form-control" placeholder="Your Message" required></textarea>
+                                            <textarea name="message" id="message" class="form-control" placeholder="Your Message" style="height: 200px;" required></textarea>
                                         </div>
                                     </div>
+                                    
                                 </div>
                                     
                                 
-                                <div class="g-recaptcha" data-sitekey="6LdW03QgAAAAAJko8aINFd1eJUdHlpvT4vNKakj6"></div>
+                                <!-- <div class="g-recaptcha" data-sitekey="6LdW03QgAAAAAJko8aINFd1eJUdHlpvT4vNKakj6"></div> -->
                                 <div id='submit' class="mt20">
                                     <button type='submit'  value='Send Message' class="btn-main">Send Message</button>
                                 </div>
 
-                                <div id="success_message" class='success'>
+                                <!-- <div id="success_message" class='success'>
                                     Your message has been sent successfully. Refresh this page if you want to send more messages.
                                 </div>
                                 <div id="error_message" class='error'>
                                     Sorry there was an error sending your form.
-                                </div>
+                                </div> -->
                             </form>
 
                             </div>
@@ -274,6 +232,7 @@
                                         <li><a href="about.html">About Us</a></li>
                                         <li><a href="terms_and_conds.html">Terms And Conditions</a></li>
                                         <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                                        <li><a href="contact.html">Contact</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -329,11 +288,30 @@
     </div>
     <!-- Javascript Files
     ================================================== -->
+    <script>
+        document.getElementById("myForm").addEventListener("submit", function () {
+            console.log("form submitted");
+            setTimeout(function () {
+                console.log("Resetting form"); // Debugging
+                document.getElementById("myForm").reset();
+                document.getElementById("message").style.height = ""; // Reset textarea height
+            }, 1000);
+        });
+    
+        window.addEventListener('pageshow', function(event) {
+            var form = document.getElementById("myForm");
+            if (event.persisted || (window.performance && window.performance.navigation.type === 2)) {
+                // Page is being restored from the bfcache (Back-Forward Cache)
+                form.reset(); // Reset the form
+            }
+        });
+    </script>
+    
     <script src="js/plugins.js"></script>
     <script src="js/designesia.js"></script>
-    <script src='../../../www.google.com/recaptcha/api.js' async defer></script>
+    <!-- <script src='../../../www.google.com/recaptcha/api.js' async defer></script> -->
     <script src="form.js"></script>
-    <script src="recaptcha.html"></script>
+    <!-- <script src="recaptcha.html"></script> -->
    
 </body>
 
